@@ -1,0 +1,35 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-ProductsApplication<products>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.agasen.products.ProductsApplication",
+      "projectName": "products",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-EcommerceGatewayApplication<ecommerce-gateway>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.agasen.ecommercegateway.EcommerceGatewayApplication",
+      "projectName": "ecommerce-gateway",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env",
+      "vmArgs": " -Dcom.sun.management.jmxremote"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-NamingServerApplication<naming-server>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.agasen.namingserver.NamingServerApplication",
+      "projectName": "naming-server",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
